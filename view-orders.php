@@ -1,7 +1,7 @@
 <?php
 include("Includes/header.php");
 include("Connections/connect.php");
-include("Connections/authorization.php");
+include("Connections/userauthorization.php");
 
 $sql = "SELECT 
             t.id AS trackId, 

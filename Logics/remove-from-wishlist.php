@@ -1,7 +1,7 @@
 <?php
 session_start();
 include("../Connections/connect.php");
-include("../Connections/authorization.php");
+include("../Connections/userauthorization.php");
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['wishlistId'])) {
     $wishlistId = intval($_POST['wishlistId']);

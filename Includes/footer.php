@@ -38,7 +38,7 @@
       <div class="flex flex-col justify-between">
         <div>
           <h3 class="text-sm font-semibold mb-2 text-blue-400">Developer</h3>
-          <p>Designed & Developed by <a href="https://www.github.com/dharshithdev" class="text-blue-300 hover:underline">DharshithDev</a></p>
+          <p>Designed & Developed by <a href="https://www.github.com/arjunperingalam" class="text-blue-300 hover:underline">Arjun KP</a></p>
         </div>
         <p class="text-gray-400 text-xs mt-4 md:mt-0">&copy; 2025 Longstar. All rights reserved.</p>
       </div>

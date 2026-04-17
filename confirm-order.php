@@ -1,7 +1,7 @@
 <?php
 include("Includes/header.php");
 include('Connections/connect.php');
-include("Connections/authorization.php");
+include("Connections/userauthorization.php");
 
 $_SESSION['user_id'] = $userId;
 

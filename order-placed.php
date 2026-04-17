@@ -1,7 +1,7 @@
 <?php
 include("Includes/simple-header.php");
 include("Connections/connect.php");
-include("Connections/authorization.php");
+include("Connections/userauthorization.php");
 ?>
 
 <!DOCTYPE html>

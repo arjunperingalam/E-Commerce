@@ -1,7 +1,7 @@
 <?php
 session_start();
 include("Connections/connect.php");
-include("Connections/authorization.php");
+include("Connections/userauthorization.php");
     
 $message = "";
 

@@ -2,7 +2,7 @@
 session_start();
 include("Includes/header.php");
 include("Connections/connect.php");
-include("Connections/authorization.php");
+include("Connections/userauthorization.php");
 
 $stmt = $conn->prepare("SELECT username FROM users WHERE id = ?");
 $stmt->bind_param("i", $userId);

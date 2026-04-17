@@ -1,6 +1,6 @@
 <?php
 include("../Connections/connect.php");
-include("../Connections/authorization.php");
+include("../Connections/userauthorization.php");
 
 $stmt = $conn->prepare("UPDATE userlogs SET loggedOut = NOW() WHERE userId = ? AND loggedOut = 'In'");
 $stmt->bind_param("i", $userId);

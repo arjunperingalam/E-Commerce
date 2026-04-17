@@ -1,7 +1,7 @@
 <?php
 include("Includes/header.php");
 include("Connections/connect.php");
-include("Connections/authorization.php");
+include("Connections/userauthorization.php");
 
 $sql = "SELECT c.id AS cartId, p.id AS productId, p.productName, p.productDescription, p.price 
         FROM cart c 

@@ -1,7 +1,7 @@
 <?php
 include("Includes/header.php");
 include("Connections/connect.php");
-include("Connections/authorization.php");
+include("Connections/userauthorization.php");
 
 $sql = "SELECT w.id AS wishlistId, p.id AS productId, p.productName, p.productDescription, p.price 
         FROM wishlist w 
