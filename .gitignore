@@ -1,5 +1,4 @@
 /vendor/
 *.log
 .env
-config.php
 node_modules/

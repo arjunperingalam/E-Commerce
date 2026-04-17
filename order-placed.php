@@ -1,6 +1,6 @@
 <?php
 include("Includes/simple-header.php");
-include("Connection/connect.php");
+include("Connections/connect.php");
 include("Connections/authorization.php");
 ?>
 

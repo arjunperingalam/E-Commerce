@@ -1,5 +1,5 @@
 
-CREATE TABLE longstar;
+CREATE DATABASE longstar;
 
 USE longstar;
 
